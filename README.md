@@ -13,6 +13,14 @@ Introduction
 Result
 --
 
-![](https://github.com/silence0925/Text-Mining/blob/master/img/1.png)
+![流程圖](https://github.com/silence0925/Eazy-Website/blob/master/img/%E6%B5%81%E7%A8%8B%E5%9C%96.jpg)
 
-![](https://github.com/silence0925/Text-Mining/blob/master/img/2.png)
+![簡略架構圖](https://github.com/silence0925/Eazy-Website/blob/master/img/%E6%9E%B6%E6%A7%8B%E5%9C%96(%E7%B0%A1%E7%95%A5).jpg)
+
+
+![細部圖1] (https://github.com/silence0925/Eazy-Website/blob/master/img/%E6%9E%B6%E6%A7%8B%E5%9C%96(%E7%B0%A1%E7%95%A5).jpg)
+
+![細部圖2] (https://github.com/silence0925/Eazy-Website/blob/master/img/%E6%9E%B6%E6%A7%8B%E5%9C%96(%E7%B4%B0%E9%83%A82).jpg)
+
+![資料庫] (https://github.com/silence0925/Eazy-Website/blob/master/img/%E8%B3%87%E6%96%99%E5%BA%AB1.jpg)
+(https://github.com/silence0925/Eazy-Website/blob/master/img/%E8%B3%87%E6%96%99%E5%BA%AB2.jpg)

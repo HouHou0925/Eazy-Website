@@ -1,0 +1,42 @@
+﻿@model IEnumerable<FinalProject.Models.ManageUser>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron" style="background-color: transparent; margin-top: 50px">
+    <h2 style="font-family: '微軟正黑體', sans-serif">網站會員管理</h2>
+    @if (ViewBag.ResultMessage != null)
+    {
+        @Html.Label("info", (string)ViewBag.ResultMessage, new { @class = "text-info" })
+    }
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>操作</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("編輯", "Edit", new { id = item.Id }, new { @class = "btn btn-default", style = "background-color: rgba(0, 0, 0, 0.5); color: #ffffff" })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

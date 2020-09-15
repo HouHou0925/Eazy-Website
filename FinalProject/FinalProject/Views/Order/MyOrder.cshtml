@@ -1,0 +1,42 @@
+﻿@model IEnumerable<FinalProject.Models.Order>
+
+@{ 
+    ViewBag.Title = "我的訂單";
+}
+
+<div class="jumbotron" style="background-color: transparent; margin-top: 50px">
+    <h2 style="font-family: '微軟正黑體', sans-serif">我的訂單</h2>
+
+    @Html.ActionLink("回去再多買點吧爸爸", "Index", "Home", new { }, new { @class = "btn btn-default", style = "background-color: rgba(0, 0, 0, 0.5); color: #ffffff" })
+
+    <table class="table">
+        <tr>
+            <th>購買會員</th>
+            <th>收貨人姓名</th>
+            <th>收貨人電話</th>
+            <th>收貨人住址</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.GetUrderName()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RecieverName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RecieverPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RecieverAddress)
+                </td>
+                <td>
+                    @Html.ActionLink("商品明細", "MyOrderDetail", new { id = item.Id }
+                 , new { @class = "btn btn-default" })
+                </td>
+            </tr>
+        }
+    </table>
+</div>

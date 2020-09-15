@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - 我的 ASP.NET 應用程式</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        ul.Cart li {
+            width: 260px;
+        }
+
+            ul.Cart li span {
+                margin: 2px;
+            }
+
+        #CartButtons {
+            display: inline-block;
+        }
+
+            #CartButtons > a {
+                margin: 6px;
+            }
+    </style>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            background-color: #ffffff;
+            color: #ffffff;
+            font-family: '微軟正黑體', sans-serif;
+            opacity: 0;
+            transition: .5s;
+            user-select: none;
+        }
+
+        .bg-img {
+            background-image: url("../../images/bg.jpg");
+            min-height: 100%;
+            width: 100vw;
+            top: 0;
+            left: 0;
+            margin-left: 0;
+            position: fixed;
+            overflow: hidden;
+            filter: opacity(0.8) saturate(2);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -2;
+        }
+
+        .bg-layer {
+            top: 0;
+            height: 100vh;
+            width: 96%;
+            margin-left: 2%;
+            background: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            z-index: -1;
+        }
+
+        .logo {
+            color: #000000;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 50px;
+        }
+    </style>
+
+
+
+    @*購物車Js*@
+    <script type="text/javascript">
+
+        $(document).ready(function () {   //載入完成時執行
+            console.log("ready!");
+        });
+
+
+        function AddToCart(productId) {    //加入編號為productId的商品進購物車
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("AddToCart", "Cart")',
+                data: { id: productId }
+            })
+                .done(function (msg) {
+                    //將回傳的購物車頁面 填入 li#Cart
+                    $('li#Cart').html(msg);
+                });
+        }
+
+
+        function RemoveFromCart(productId) {     //移除購物車商品
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("RemoveFromCart", "Cart")',
+                data: { id: productId }
+            })
+                .done(function (msg) {
+                    //將回傳的購物車頁面 填入 li#Cart
+                    $('li#Cart').html(msg);
+                });
+        }
+
+        //清空
+        function ClearCart() {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("ClearCart", "Cart")',
+                data: {}
+            })
+            .done(function (msg) {
+                //將回傳的購物車頁面 填入 li#Cart
+                $('li#Cart').html(msg);
+            });
+        }
+
+        function showContent() {
+            document.getElementById("content").style.opacity = "1";
+        }
+
+    </script>
+</head>
+
+
+
+
+
+<body id="content" onload="showContent()">
+    <div class="bg-img"></div>
+    <div class="bg-layer"></div>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(255, 255, 255, 1); box-shadow: 0 0 10px 1px #000000; border: none">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background-color: rgb(191, 24, 35); border: none; border-radius: 30px">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("TEMGA線上購物商城", "Index", "Home", new { area = "" }, new { @class = "logo", style = "margin-left: 15px; margin-right: 50px; text-decoration: none" })
+            </div>
+            <div class="navbar-collapse collapse" style="border: none">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("首頁", "Index", "Home", null, new { style = "color: rgb(191, 24, 35); font-weight: bold; font-size: 17px" })</li>
+                    <li>@Html.ActionLink("關於", "About", "Home", null, new { style = "color: rgb(191, 24, 35); font-weight: bold; font-size: 17px" })</li>
+                    <li>@Html.ActionLink("連絡方式", "Contact", "Home", null, new { style = "color: rgb(191, 24, 35); font-weight: bold; font-size: 17px" })</li>
+                    <li>@Html.ActionLink("商品管理", "Index", "Product", null, new { style = "color: rgb(191, 24, 35); font-weight: bold; font-size: 17px" })</li>
+                    <li>@Html.ActionLink("會員管理", "Index", "ManageUser", null, new { style = "color: rgb(191, 24, 35); font-weight: bold; font-size: 17px" })</li>
+                    <li>@Html.ActionLink("訂單管理", "Index", "ManageOrder", null, new { style = "color: rgb(191, 24, 35); font-weight: bold; font-size: 17px" })</li>
+                    <li id="Cart" style = "font-weight: bold; font-size: 17px">
+                        @Html.Partial("_CartPartial")
+                    </li>
+                    <li style="font-weight: bold; font-size: 17px">
+                        @Html.Partial("_LoginPartial")
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+
+        @RenderBody()
+        <hr />
+        <footer style="color: #ffffff">
+            <p>&copy; @DateTime.Now.Year - 鍾武君老師的期末作業>_<</p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

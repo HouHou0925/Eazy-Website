@@ -1,0 +1,87 @@
+﻿@model FinalProject.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+    var commentList = new List<FinalProject.Models.ProductCommet>();
+    using (FinalProject.Models.ItemEntities db = new FinalProject.Models.ItemEntities())
+    {
+        commentList = (from s in db.ProductCommets
+                       where s.ProductId == this.Model.Id
+                       select s).ToList();
+    }
+}
+
+<div class="jumbotron" style="background-color: transparent; margin-top: 50px">
+    <h2 style="font-family: '微軟正黑體', sans-serif">商品資訊</h2>
+
+    <hr />
+
+    <center>
+        <div>
+            <dl class="dl-horizontal" style="font-size: 20px;">
+                <dt>
+
+                </dt>
+
+                <dd>
+                    <img src="~/images/@this.Model.DefaultImageName" width="400" />
+                </dd>
+
+                <dt>
+                    名稱
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+
+                <dt>
+                    描述
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+
+                <dt>
+                    售價
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
+
+                <dt>
+                    庫存數量
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Quantity)
+                </dd>
+            </dl>
+
+            <dl class="dl-horizontal" style="font-size: 20px;">
+                @foreach (var comment in commentList)
+                {
+                    <dt>@comment.UserName：</dt>
+                    <dd>@comment.Content  ( @comment.CreateDate )  </dd>
+                }
+            </dl>
+
+            <dl class="dl-horizontal" style="font-size: 20px;">
+                <dt></dt>
+                <dd>
+                    @using (Html.BeginForm("AddComment", "Home", FormMethod.Post, new { }))
+                    {
+                        @Html.HiddenFor(m => m.Id)
+                        @Html.TextBox("Content")
+                        <input type="submit" value="留言" class="btn btn-default" style="background-color: rgba(0, 0, 0, 0.5); color: #ffffff" />
+                    }
+                </dd>
+            </dl>
+        </div>
+    </center>
+</div>

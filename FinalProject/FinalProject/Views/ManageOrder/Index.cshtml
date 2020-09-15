@@ -1,0 +1,64 @@
+﻿@model IEnumerable<FinalProject.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron" style="background-color: transparent; margin-top: 50px">
+    <h2 style="font-family: '微軟正黑體', sans-serif">訂單列表</h2>
+    <div class="row">
+        <div class="col-sm-60 col-md-40">
+            <table class="dl-horizontal" style="white-space: nowrap">
+                <tr>
+                    @using (Html.BeginForm("SerachByUserName", "ManageOrder"))
+                    {
+                        @Html.TextBox("name", null, new { @class = "btn-info", style = "height: 35px; background-color: rgba(255, 255, 255, 0.5); border: none; border-radius: 50px; outline: none; margin-left: 15px; padding-left: 5px" })
+                        <a>&nbsp;</a>
+                        <input type="submit" value="搜尋" class="btn btn-default" style="background-color: rgba(0, 0, 0, 0.5); color: #ffffff" />
+                        <a>&nbsp;</a>
+                    }
+                    @using (Html.BeginForm("ShowAll", "ManageOrder"))
+                    {
+
+                        <input type="submit" value="取消搜尋" class="btn btn-default" style="background-color: rgba(0, 0, 0, 0.5); color: #ffffff" />
+                    }
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <table class="table">
+        <tr>
+            <th>購買會員</th>
+            <th>收貨人姓名</th>
+            <th>收貨人電話</th>
+            <th>收貨人住址</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+
+                    @item.GetUrderName()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RecieverName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RecieverPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RecieverAddress)
+                </td>
+                <td>
+                    @Html.ActionLink("商品明細", "Details", new { id = @item.Id }
+                 , new { @class = "btn btn-default", style = "background-color: rgba(0, 0, 0, 0.5); color: #ffffff" })
+                </td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,77 @@
+﻿@model List<FinalProject.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="jumbotron" style="background-color: transparent; margin-top: 50px">
+    <div style="margin-top: 50px;">
+        <h2 style="font-family: '微軟正黑體', sans-serif">商品列表</h2>
+
+
+        <div>
+            @Html.ActionLink("新增商品", "Creat")
+        </div>
+
+
+
+        @if (ViewBag.ResultMessage != null)
+        {
+            @Html.Label("info", (string)ViewBag.ResultMessage, new { @class = "text-info" });
+        }
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>
+                        圖片
+                    </td>
+                    <td>
+                        編號
+                    </td>
+                    <td>
+                        名稱
+                    </td>
+                    <td>
+                        描述
+                    </td>
+                    <td>
+                        售價
+                    </td>
+                    <td>
+                        庫存
+                    </td>
+                    <td>
+                        操作
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in this.Model) /* 使用foreach將所有商品列出 */
+                {
+                    <tr>
+
+                        <td><img src="~/images/@item.DefaultImageName" width="50" height="50" /></td>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>@item.Price</td>
+                        <td>@item.Quantity</td>
+                        <td>
+                            @Html.ActionLink("編輯", "Edit", new { id = item.Id }, new { @class = "btn btn-default", style = "background-color: rgba(0, 0, 0, 0.5); color: #ffffff" })
+                        </td>
+                        <td>
+                            @using (Html.BeginForm("Delete", "Product", FormMethod.Post, new { @class = "Delete" }))
+                            {
+                                @Html.Hidden("id", item.Id)
+                                <input type="submit" value="刪除" class="btn btn-default" style="background-color: rgba(0, 0, 0, 0.5); color: #ffffff" />
+                            }
+
+
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

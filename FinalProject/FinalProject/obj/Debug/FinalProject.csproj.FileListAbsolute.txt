@@ -1,0 +1,251 @@
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\ApplicationInsights.config
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\csc.exe
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\vbc.exe
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\FinalProject.dll.config
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\FinalProject.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\FinalProject.pdb
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Antlr3.Runtime.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\EntityFramework.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.Web.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.WindowsServer.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.ApplicationInsights.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Google.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Newtonsoft.Json.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Owin.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.Optimization.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.Razor.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.WebPages.Deployment.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.WebPages.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.WebPages.Razor.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\WebGrease.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.Web.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AI.WindowsServer.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.ApplicationInsights.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.Optimization.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.Razor.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.WebPages.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.WebPages.Deployment.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\System.Web.WebPages.Razor.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Antlr3.Runtime.pdb
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Newtonsoft.Json.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\EntityFramework.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Google.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\bin\zh-Hant\EntityFramework.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+c:\users\user\documents\visual studio 2015\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\User\documents\visual studio 2015\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\ApplicationInsights.config
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\csc.exe
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\FinalProject.dll.config
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.Web.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Owin.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\WebGrease.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.Web.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+D:\FinalProject\FinalProject\FinalProject\bin\ApplicationInsights.config
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\csc.exe
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\vbc.exe
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe
+D:\FinalProject\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+D:\FinalProject\FinalProject\FinalProject\bin\FinalProject.dll.config
+D:\FinalProject\FinalProject\FinalProject\bin\FinalProject.dll
+D:\FinalProject\FinalProject\FinalProject\bin\FinalProject.pdb
+D:\FinalProject\FinalProject\FinalProject\bin\Antlr3.Runtime.dll
+D:\FinalProject\FinalProject\FinalProject\bin\EntityFramework.dll
+D:\FinalProject\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.Web.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.WindowsServer.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.ApplicationInsights.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Facebook.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Google.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.OAuth.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Twitter.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Newtonsoft.Json.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Owin.dll
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.Optimization.dll
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.Razor.dll
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.Deployment.dll
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.dll
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.Razor.dll
+D:\FinalProject\FinalProject\FinalProject\bin\WebGrease.dll
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.Web.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AI.WindowsServer.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.ApplicationInsights.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.Optimization.xml
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.Razor.xml
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.xml
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.Deployment.xml
+D:\FinalProject\FinalProject\FinalProject\bin\System.Web.WebPages.Razor.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Antlr3.Runtime.pdb
+D:\FinalProject\FinalProject\FinalProject\bin\Newtonsoft.Json.xml
+D:\FinalProject\FinalProject\FinalProject\bin\EntityFramework.xml
+D:\FinalProject\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Core.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Facebook.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.OAuth.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Google.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.Twitter.xml
+D:\FinalProject\FinalProject\FinalProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\FinalProject\FinalProject\FinalProject\bin\zh-Hant\EntityFramework.resources.dll
+D:\FinalProject\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+D:\FinalProject\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+D:\FinalProject\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+D:\FinalProject\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+D:\FinalProject\FinalProject\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
+C:\Users\user\Desktop\FinalProject\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache

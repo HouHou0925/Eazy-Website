@@ -1,0 +1,138 @@
+﻿@using Microsoft.AspNet.Identity;
+@model List<FinalProject.Models.Product>
+
+
+@{
+    ViewBag.Title = "買ㄅㄠˋ首頁";
+    var UserID = User.Identity.GetUserId();
+    var UserName = User.Identity.Name;
+}
+
+<script type="text/javascript" src="alert.js"></script>
+
+<style>
+    .ProductImg {
+        height: 300px;
+    }
+</style>
+
+<style>
+    .index-layer {
+        background-image: url(../../images/index_layer.jpg);
+        left: 0;
+        height: 100vh;
+        width: 96%;
+        margin-left: 2%;
+        position: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -2;
+    }
+</style>
+
+@if (ViewBag.ResultMessage != null)
+{
+    @Html.Label("info", (string)ViewBag.ResultMessage, new { @class = "text-info" });
+}
+
+<div class="index-layer"></div>
+
+<div class="jumbotron" style="background-color: rgba(0, 0, 0, 0.6); border-radius: 20px; margin-top: 50px">
+    <h1 style="color: rgb(191, 24, 35); font-weight: bolder; font-family: '微軟正黑體', sans-serif">TEMGA線上購物商城</h1>
+    <h1 style="color: rgb(191, 24, 35); font-weight: bolder; font-family: '微軟正黑體', sans-serif">6/12 正式上線</h1>
+    <hr />
+    <p class="lead">TEMGA是新一代的購物平台，採用了MVC及SQL兩項獨門技術，屆時您在訂購商品，能使您的會員資料處於加密的安全狀態，同時讓您在購物時能獲得更佳的快感。</p>
+    <p class="lead">還在等什麼？</p>
+    <p class="lead" style="font-size: 30px">&raquo; 現在加入會員即有機會獲得千元抵用金</p>
+    <p>@Html.ActionLink("加入會員", "Register", "Account", new { }, new { @class = "btn btn-primary btn-lg", style = "font-size: 20px" })</p>
+</div>
+
+<div class="jumbotron" style="background-color: rgba(0, 0, 0, 0.6); border-radius: 20px; margin-top: 50px">
+
+
+
+    <h1 style="color: rgb(191, 24, 35); font-weight: bolder; font-family: '微軟正黑體', sans-serif">AV購物網站</h1>
+    <h1 style="color: rgb(191, 24, 35); font-weight: bolder; font-family: '微軟正黑體', sans-serif">只要你想要，什麼都可以。</h1>
+    <hr />
+    <p>@Html.ActionLink("關於網站", "About", new { }, new { @class = "btn btn-primary btn-lg", style = "font-size: 20px" })</p>
+</div>
+
+
+
+<div class="row">
+
+    @foreach (var product in this.Model)
+    {
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img class="ProductImg" src="~/images/@product.DefaultImageName" width="250" height="250" alt="商品圖片">
+                <div class="caption">
+                    <h3 style="text-align: center; font-family: '微軟正黑體', sans-serif">@product.Name</h3>
+                    <p>@product.Description</p>
+                    <p>售價 : @product.Price</p>
+                    <p>庫存 : @product.Quantity</p>
+                    <p>
+                        <a onclick="AddToCart('@product.Id')" href="javascript:void(0);"
+                           class="btn btn-primary" role="button">
+                            加入購物車
+                        </a>
+                        <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-default" role="button">
+                            詳細資訊
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <br /><br />
+        </div>
+    }
+</div>
+
+<br />
+
+<div class="row">
+    <div class="col-md-4">
+        <p><img src="https://image.flaticon.com/icons/svg/174/174848.svg" style="margin-left: 1px; width: 70px" /></p>
+        <h2 style="font-family: '微軟正黑體', sans-serif">加入TEMGA的粉絲團</h2>
+        <p>
+            現在就打開你的FB，加入我們的粉絲團
+        </p>
+        <p>
+            您就能收到無論是日本或是歐美，來自世界各地的最新的商品快報
+        </p>
+        <p>
+            我們也會不定期的舉辦商品優惠抽獎，即刻加入，錯過不再
+        </p>
+        <p><a class="btn btn-default" style="background-color: rgba(0, 0, 0, 0.5); color: #ffffff" href="https://zh-tw.facebook.com/">前往粉絲團加入 &raquo;</a></p>
+        <br /><br />
+    </div>
+    <div class="col-md-4">
+        <p><img src="https://image.flaticon.com/icons/svg/174/174855.svg" style="margin-left: 1px; width: 70px" /></p>
+        <h2 style="font-family: '微軟正黑體', sans-serif">追蹤TEMGA的IG</h2>
+        <p>
+            追蹤我們的IG，我們會將風靡全球各地的系列商品報給您知
+        </p>
+        <p>
+            想了解最近同儕或是同事間熱門的話題嗎，追蹤我們的IG讓您從不落伍
+        </p>
+        <p>
+            成為潮潮，就是現在
+        </p>
+        <p><a class="btn btn-default" style="background-color: rgba(0, 0, 0, 0.5); color: #ffffff" href="https://www.instagram.com/?hl=zh-tw">前往IG追蹤 &raquo;</a></p>
+        <br /><br />
+    </div>
+    <div class="col-md-4">
+        <p><img src="https://image.flaticon.com/icons/svg/174/174883.svg" style="margin-left: 1px; width: 70px" /></p>
+        <h2 style="font-family: '微軟正黑體', sans-serif">訂閱TEMGA的YouTube</h2>
+        <p>
+            不知道收到的商品該如何使用？
+        </p>
+        <p>
+            不用再被這些瑣事困擾了，訂閱我們的TEMGA官方YouTubbe頻道
+        </p>
+        <p>
+            我們會將商品使用說明上架到我們的頻道上，從此無須再為使用方法煩惱
+        </p>
+        <p><a class="btn btn-default" style="background-color: rgba(0, 0, 0, 0.5); color: #ffffff" href="https://www.youtube.com/">前往YouTube訂閱 &raquo;</a></p>
+        <br /><br />
+    </div>
+</div>
